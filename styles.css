@@ -1,0 +1,42 @@
+h1,h2,h3,h4,h6{
+    color: hsl(357, 50%, 22%);
+}
+
+h1{
+    font-size: 34px;
+    line-height: 1.4em;
+}
+
+li{
+    line-height: 1.6rem;
+    color: hsl(357, 12%, 42%);
+    font-weight: 500;
+    margin: 12px 0px;
+}
+
+strong{
+    font-weight: bold;
+}
+
+p{
+    font-size: 18px;
+    line-height: 1.6em;
+    color: hsl(357, 12%, 42%);
+    font-weight: 500;
+}
+
+
+/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+@media screen and (min-width: 601px) {
+    div#time {
+      font-size: 11rem;
+    }
+  }
+  
+  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+  @media screen and (max-width: 600px) {
+    div#time {
+      font-size: 6rem;
+    }
+  }
+  
